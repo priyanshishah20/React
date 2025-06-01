@@ -1,12 +1,5 @@
-# React + Vite
+## **Built movieZone page using React**
+Different buttons are dynamically displayed based on movie categories such as Action, Thriller, Drama, etc. <br>
+When a user clicks a category button (e.g., "Action"), the application fetches or filters movie data and displays corresponding movie posters in the UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![screencapture-localhost-5173-2025-06-01-13_45_53](https://github.com/user-attachments/assets/474dfeba-3d33-4d78-ad9c-0c86fb052b97)
