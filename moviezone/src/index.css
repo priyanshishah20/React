@@ -27,8 +27,7 @@ p {
 .flex-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 4rem;
+  gap: 3rem 4rem;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -52,5 +51,14 @@ p {
 }
 
 .btns button {
-  margin-inline: 0.5rem;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container{
+    width: 100%;
+  }
+  .flex-container{
+    gap: 3rem;
+  }
 }
