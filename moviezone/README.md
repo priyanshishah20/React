@@ -1,4 +1,4 @@
-## **Built movieZone page using React**
+## **Built moviezone project using React**
 Different buttons are dynamically displayed based on movie categories such as Action, Thriller, Drama, etc. <br>
 When a user clicks a category button (e.g., "Action"), the application fetches or filters movie data and displays corresponding movie posters in the UI.
 
