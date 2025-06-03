@@ -11,12 +11,28 @@ body {
   color: #ffffff;
 }
 
+.btns button {
+  margin: 0.5rem;
+}
+
+input{
+  border: 1px solid #cecece;
+  background: transparent;
+  color: #ffffff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
-  gap: 3rem 4rem;
+  gap: 3rem;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.flex-child {
+  max-width: 200px;
 }
 
 .poster {
