@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1c1e;
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem 4rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.poster {
+  border: 1px solid #695dcf;
+  border-radius: 6px;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.poster:hover {
+  transform: scale(1.05);
+}
+
+.food-title {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 1rem;
+}
